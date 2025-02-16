@@ -26,6 +26,7 @@ import json
 from pathlib import Path
 
 # Create data directory and user data file
+## Define the path for the data directory
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 USERS_FILE = DATA_DIR / "users.json"
@@ -34,6 +35,7 @@ USERS_FILE = DATA_DIR / "users.json"
 if not USERS_FILE.exists():
     with open(USERS_FILE, "w") as f:
         json.dump({}, f)
+## Initialize the file content as an empty dictionary
 
 @dataclass 
 class User:
