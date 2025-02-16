@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>modules.auth Documentation</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        pre {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .function {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .class {
+            margin: 30px 0;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>modules.auth Module Documentation</h1>
+
+<h2>Module Description</h2>
+<pre>Authentication Module
+
+This module provides user authentication and authorization functionality.
+
+Main features:
+    - User authentication middleware
+    - Login status verification
+    - Access control
+    - Security validation
+
+Classes:
+    None
+
+Functions:
+    auth_before(req, sess) -> Optional[Response]: Authentication middleware function
+
+Constants:
+    login_redir: Redirect response to login page
+</pre>
+
+<h2>Classes</h2>
+<h2>Functions</h2>
+<div class="function">
+<h3>auth_before</h3>
+<pre>Authentication middleware function
+    
+    Verify user login status and redirect unauthorized users to login page.
+    
+    Args:
+        req: Request object
+        sess: Session object
+    
+    Returns:
+        Optional[Response]: Redirect response if unauthorized, None otherwise
+    
+    Examples:
+        >>> auth_before(request, session)
+        RedirectResponse('/login', status_code=303)
+    </pre>
+</div>
+
+</body>
+</html>

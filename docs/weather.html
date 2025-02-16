@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>modules.weather Documentation</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        pre {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .function {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .class {
+            margin: 30px 0;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>modules.weather Module Documentation</h1>
+
+<h2>Module Description</h2>
+<pre>Weather Analysis Module
+
+This module provides weather data processing and analysis functionality.
+
+Main features:
+    - Temperature unit conversion
+    - Weather data analysis
+    - Comfort level calculation
+    - Weather trend prediction
+    - Warning information generation
+
+Functions:
+    convert_temp(temp: float, unit: str) -> tuple[float, str]: Temperature unit conversion
+    analyze_weather(forecast_data: list, temp_unit: str = 'C') -> dict: Weather data analysis
+    get_comfort_emoji(level: str) -> str: Get comfort level emoji
+</pre>
+
+<h2>Classes</h2>
+<h2>Functions</h2>
+<div class="function">
+<h3>analyze_weather</h3>
+<pre>Analyze weather data and return trends and suggestions</pre>
+</div>
+
+<div class="function">
+<h3>convert_temp</h3>
+<pre>Temperature unit conversion
+    
+    Convert Celsius to specified unit.
+    
+    Args:
+        temp: Temperature value (Celsius)
+        unit: Target unit ('C' or 'F')
+        
+    Returns:
+        tuple: (Converted temperature, Unit symbol)
+    
+    Examples:
+        >>> convert_temp(25, 'F')
+        (77.0, '°F')
+    </pre>
+</div>
+
+<div class="function">
+<h3>get_comfort_emoji</h3>
+<pre>Get emoji based on comfort level</pre>
+</div>
+
+</body>
+</html>

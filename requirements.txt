@@ -1,0 +1,12 @@
+python>=3.10
+FastHTML>=0.0.1
+fastlite>=0.0.1
+httpx>=0.24.1
+python-dotenv>=1.0.0  # 环境变量管理
+dataclasses>=0.6      # 数据类支持
+pathlib>=1.0.1        # 路径处理
+python-dateutil>=2.8.2
+pytest>=7.4.0         # 测试框架
+black>=23.7.0         # 代码格式化
+flake8>=6.1.0         # 代码检查
+Chart.js>=4.3.0       # 图表库 

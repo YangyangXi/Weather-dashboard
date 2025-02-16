@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>modules.user Documentation</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        pre {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .function {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .class {
+            margin: 30px 0;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>modules.user Module Documentation</h1>
+
+<h2>Module Description</h2>
+<pre>User Management Module
+
+This module handles user data management, including user model definition and data persistence.
+
+Main features:
+    - User data model
+    - User data persistence
+    - User information CRUD
+    - User preference management
+
+Classes:
+    User: User data class
+    Login: Login data class
+
+Functions:
+    load_users() -> dict: Load user data
+    save_users(users_data: dict) -> None: Save user data
+
+Constants:
+    DATA_DIR: Data directory path
+    USERS_FILE: User data file path
+</pre>
+
+<h2>Classes</h2>
+
+<div class="class">
+<h3>class Login</h3>
+<pre>Login data class
+    
+    Attributes:
+        name (str): Username
+        pwd (str): Password
+    </pre>
+</div>
+<div class="class">
+<h3>class User</h3>
+<pre>User data class
+    
+    Attributes:
+        name (str): Username
+        pwd (str): Password
+        city (str): Default city, optional
+    </pre>
+</div><h2>Functions</h2>
+<div class="function">
+<h3>load_users</h3>
+<pre>Load user data
+    
+    Load user data from JSON file.
+    
+    Returns:
+        dict: User data dictionary
+    
+    Examples:
+        >>> users = load_users()
+        >>> print(users['admin']['city'])
+        'Beijing'
+    </pre>
+</div>
+
+<div class="function">
+<h3>save_users</h3>
+<pre>Save user data
+    
+    Save user data to JSON file.
+    
+    Args:
+        users_data (dict): User data dictionary to save
+    
+    Examples:
+        >>> users = {'admin': {'name': 'admin', 'pwd': '123456'}}
+        >>> save_users(users)
+    </pre>
+</div>
+
+</body>
+</html>

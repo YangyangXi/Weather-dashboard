@@ -1,0 +1,42 @@
+{
+  "1": {
+    "name": "1",
+    "pwd": "qweqwe529",
+    "city": "beijing",
+    "temp_unit": "F"
+  },
+  "10": {
+    "name": "10",
+    "pwd": "qweqwe529",
+    "city": "beijing",
+    "temp_unit": "C"
+  },
+  "11": {
+    "name": "11",
+    "pwd": "qweqwe529",
+    "city": "haikou",
+    "temp_unit": "F"
+  },
+  "12": {
+    "name": "12",
+    "pwd": "qweqwe529",
+    "city": "shanghai",
+    "temp_unit": "F"
+  },
+  "14": {
+    "name": "14",
+    "pwd": "qweqwe529",
+    "city": "hangzhou"
+  },
+  "13": {
+    "name": "13",
+    "pwd": "qweqwe529",
+    "city": "shanghai",
+    "temp_unit": "C"
+  },
+  "xyy": {
+    "name": "xyy",
+    "pwd": "200449",
+    "city": "Guangzhou"
+  }
+}
