@@ -1,5 +1,5 @@
 python>=3.10
-FastHTML>=0.0.1
+python-fasthtml>=0.0.1
 fastlite>=0.0.1
 httpx>=0.24.1
 python-dotenv>=1.0.0  # 环境变量管理
