@@ -46,7 +46,7 @@ class User:
         pwd (str): Password
         city (str): Default city, optional
     """
-    name: str
+    name: str  # Username
     pwd: str
     city: str = ''
 
