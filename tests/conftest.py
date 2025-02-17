@@ -8,7 +8,7 @@ setup_test_path()
 
 @pytest.fixture
 def test_data_dir(tmp_path):
-    """Create test data directory"""
+    """Create test data directory（Used to create a temporary test data directory）"""
     data_dir = tmp_path / "data"
     data_dir.mkdir()
     return data_dir
