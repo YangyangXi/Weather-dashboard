@@ -108,7 +108,7 @@ dashboard_style = """
 }
 """
 
-# Style utility functions
+# Styles utility functions
 def get_theme_styles(theme: str) -> str:
     """Get styles for specified theme
     
