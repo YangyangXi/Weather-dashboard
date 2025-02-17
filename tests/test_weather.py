@@ -63,7 +63,7 @@ def test_analyze_weather():
     assert 'comfort_levels' in result
     assert len(result['comfort_levels']) == len(mock_data)
     
-    # Test large temperature difference
+    # Test large temperature differences
     mock_data_large_diff = [
         {'main': {'temp': 20, 'humidity': 60}},
         {'main': {'temp': 30, 'humidity': 65}},

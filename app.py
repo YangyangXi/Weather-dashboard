@@ -62,7 +62,7 @@ def auth_before(req, sess):
     if not auth and req.url.path not in ['/login', '/register']: 
         return login_redir
 
-# Custom style
+# custom style
 custom_style = """
 :root {
     --primary: #4f46e5;

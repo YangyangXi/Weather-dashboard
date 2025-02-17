@@ -71,7 +71,7 @@ def generate_module_doc(module_name: str, output_dir: str = 'docs'):
 <h3>class {name}</h3>
 <pre>{obj.__doc__ or 'No documentation available'}</pre>
 """
-                # Get class methods
+                # Get class method
                 for method_name, method in inspect.getmembers(obj, inspect.isfunction):
                     if not method_name.startswith('_'):
                         doc += f"""
